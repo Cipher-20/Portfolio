@@ -1,0 +1,99 @@
+body,
+html {
+    margin: 0;
+    background-color: #555c6f;
+    font-family: Arial;
+    font-size: 18px;
+}
+#header{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+#header .contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-item {
+    display: inline;
+    padding: 10px;
+}
+
+#nav-link-name {
+    float: right;
+    font-family: Impact;
+    font-size: 40px;
+}
+
+.link-bold {
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #019898;
+} 
+
+.banner img{
+    margin-top: 9%;
+    height: 939px;
+    width: 100%;
+}
+
+.banner,
+.about-section,
+.education-section,
+.contact-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.split{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.left-side{
+    float: left;
+    margin-top: 70px;
+}
+.right-side{
+    float: right;
+}
+
+#my-photo{
+    border: 10px solid white;
+    border-radius: 0px;
+    float: right;
+    height: 350px;
+    margin-bottom: 20px ;
+}
+
+.about-container{
+    width: 65%;
+    margin: auto;
+}
+
+#about-title{
+    padding-top: 20px;
+    margin: 0px;
+}
